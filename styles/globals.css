@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cabin+Sketch:wght@400;700&family=Rubik:wght@300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.2rem;
+  background-color: var(--scroller);
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bgcolor);
+}
+
+.dark-theme {
+  --bgcolor: #232427;
+  --primary: #1d5c96;
+  --secondary: #7db0de;
+  --third: #ac3b61;
+  --fourth: #7db0de;
+  --scroller: #1d5c96;
+  --grey: #36454f;
+  --text: #fff;
+  --hover: #36454f;
+  --box: #2a2b2f;
+}
+
+.light-theme {
+  --bgcolor: #c0c0c0;
+  --primary: #1d5c96;
+  --secondary: #7db0de;
+  --third: #a94064;
+  --fourth: #12395d;
+  --scroller: #12395d;
+  --grey: #808080;
+  --text: #000;
+  --hover: #acbabf;
+  --box: #98989c;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
